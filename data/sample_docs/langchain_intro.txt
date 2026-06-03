@@ -1,0 +1,20 @@
+LangChain is a framework for building applications powered by large language models (LLMs).
+It provides tools for chaining together LLM calls, integrating with external data sources,
+and building agents that can take actions.
+
+Key components of LangChain:
+- Chains: sequences of calls to LLMs or other utilities
+- Agents: LLMs that decide which actions to take using tools
+- Memory: persisting state between calls
+- Retrievers: fetching relevant documents from a vector store
+- Document Loaders: loading data from various sources (PDFs, web pages, databases)
+
+LangChain Expression Language (LCEL) is the recommended way to compose chains.
+It uses the pipe operator (|) to connect components:
+  retriever | prompt | llm | output_parser
+
+RAG (Retrieval-Augmented Generation) is a common pattern in LangChain where:
+1. Documents are loaded and split into chunks
+2. Chunks are embedded into vectors and stored in a vector store
+3. At query time, relevant chunks are retrieved
+4. The retrieved context is passed to the LLM along with the question

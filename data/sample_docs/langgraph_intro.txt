@@ -1,0 +1,20 @@
+LangGraph is a library for building stateful, multi-actor applications with LLMs.
+It extends LangChain with graph-based orchestration.
+
+Core concepts:
+- StateGraph: a directed graph where nodes are functions and edges are transitions
+- State: a typed dict shared across all nodes
+- Nodes: Python functions that read and write to state
+- Edges: connections between nodes (conditional or unconditional)
+- Checkpointing: saving graph state to resume or branch execution
+
+A typical LangGraph agent loop:
+1. Agent node: LLM decides to call a tool or finish
+2. Tools node: executes the selected tool
+3. Conditional edge: routes back to agent or ends based on tool_calls presence
+
+MemorySaver is a built-in checkpointer that stores state in memory.
+It allows threads (conversations) to maintain context across multiple invocations.
+
+Human-in-the-loop is supported via interrupt_before or interrupt_after parameters
+on graph.compile(), pausing execution at specified nodes for human review.

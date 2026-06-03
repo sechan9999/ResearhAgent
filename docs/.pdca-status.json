@@ -1,0 +1,171 @@
+{
+  "version": "2.0",
+  "lastUpdated": "2026-06-02T19:04:08.113Z",
+  "activeFeatures": [
+    "Langchain"
+  ],
+  "primaryFeature": "Langchain",
+  "features": {
+    "langchain-rag-learning": {
+      "phase": "archived",
+      "matchRate": 77,
+      "matchRateAdjusted": 88,
+      "iterationCount": 0,
+      "startedAt": "2026-06-02T00:00:00.000Z",
+      "archivedAt": "2026-06-02T22:39:00.000Z",
+      "archivedTo": "docs/archive/2026-06/langchain-rag-learning/"
+    },
+    "Langchain": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-06-02T18:11:47.684Z",
+        "lastUpdated": "2026-06-02T19:04:08.113Z"
+      },
+      "lastFile": "C:\\Users\\secha\\Documents\\Claude\\Projects\\Langchain\\rag_eval.py"
+    },
+    "chat_models": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-06-02T18:35:54.279Z",
+        "lastUpdated": "2026-06-02T18:35:54.279Z"
+      },
+      "lastFile": "C:\\Users\\secha\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\langchain_community\\chat_models\\vertexai.py"
+    }
+  },
+  "pipeline": {
+    "currentPhase": 1,
+    "level": "Dynamic",
+    "phaseHistory": []
+  },
+  "session": {
+    "startedAt": "2026-06-02T16:20:10.379Z",
+    "onboardingCompleted": false,
+    "lastActivity": "2026-06-02T19:04:08.113Z"
+  },
+  "history": [
+    {
+      "timestamp": "2026-06-02T18:11:47.684Z",
+      "feature": "Langchain",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-02T18:11:54.653Z",
+      "feature": "Langchain",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-02T18:29:16.852Z",
+      "feature": "Langchain",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-02T18:29:26.516Z",
+      "feature": "Langchain",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-02T18:29:35.307Z",
+      "feature": "Langchain",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-02T18:29:35.925Z",
+      "feature": "Langchain",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-02T18:29:40.135Z",
+      "feature": "Langchain",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-02T18:35:54.279Z",
+      "feature": "chat_models",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-02T18:49:21.266Z",
+      "feature": "Langchain",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-02T18:49:29.581Z",
+      "feature": "Langchain",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-02T18:50:33.147Z",
+      "feature": "Langchain",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-02T18:51:47.562Z",
+      "feature": "Langchain",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-02T18:51:51.175Z",
+      "feature": "Langchain",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-02T18:51:55.191Z",
+      "feature": "Langchain",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-02T18:52:44.366Z",
+      "feature": "Langchain",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-02T18:52:48.098Z",
+      "feature": "Langchain",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-02T18:53:44.949Z",
+      "feature": "Langchain",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-02T18:55:23.353Z",
+      "feature": "Langchain",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-02T19:04:08.113Z",
+      "feature": "Langchain",
+      "phase": "do",
+      "action": "updated"
+    }
+  ]
+}

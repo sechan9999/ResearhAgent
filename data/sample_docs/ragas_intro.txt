@@ -1,0 +1,23 @@
+RAGAS (Retrieval Augmented Generation Assessment) is an evaluation framework
+for RAG pipelines. It measures quality without requiring human-labeled test data.
+
+Key metrics:
+- Faithfulness: measures whether the answer is grounded in the retrieved context.
+  Score of 1.0 means every claim in the answer is supported by the context.
+- Answer Relevancy: measures how relevant the answer is to the question.
+  Penalizes answers that are incomplete or contain redundant information.
+- Context Recall: measures how much of the ground truth is covered by the retrieved context.
+  Requires a ground_truth field in the dataset.
+- Context Precision: measures the signal-to-noise ratio of the retrieved context.
+  High precision means retrieved chunks are all relevant to the question.
+
+RAGAS dataset format:
+Each sample requires: question, answer, contexts (list of strings), ground_truth (optional)
+
+RAGAS uses LLMs internally to score each metric, so an OpenAI API key is required.
+Results are returned as a pandas DataFrame with one row per question.
+
+Typical acceptable scores:
+- Faithfulness >= 0.7
+- Answer Relevancy >= 0.7
+- Context Precision >= 0.6

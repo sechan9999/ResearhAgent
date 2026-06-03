@@ -1,0 +1,23 @@
+LangSmith is an observability and evaluation platform for LLM applications.
+It is developed by LangChain and integrates natively with LangChain and LangGraph.
+
+Key features:
+- Tracing: automatic capture of every LLM call, tool call, and chain step
+- Playground: replay and edit any traced run interactively
+- Datasets & Evaluation: create evaluation datasets from production traces
+- Monitoring: track latency, token usage, error rates over time
+- Prompt Hub: version and share prompts
+
+Setup requires three environment variables:
+  LANGCHAIN_TRACING_V2=true
+  LANGCHAIN_API_KEY=ls__...   (from smith.langchain.com)
+  LANGCHAIN_PROJECT=my-project
+
+Once set, all LangChain and LangGraph code automatically sends traces to LangSmith.
+No code changes are needed — only environment variables.
+
+Traces are organized by project. Each trace shows:
+- The full input/output of each step
+- Latency per step
+- Token counts and estimated cost
+- Errors with full stack traces
